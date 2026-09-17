@@ -1,0 +1,27 @@
+(Transcribed by TurboScribe. Go Unlimited to remove this message.)
+
+How would you design a hotel management system? Let's break down the object-oriented design of a hotel management system, step-by-step. System requirements. The system should support booking of different room types like standard, deluxe, family suite, and business suite. 
+
+Guests should be able to search rooms and make bookings. Receptionists can create bookings, check-in, and check out customers. The system should maintain housekeeping logs for rooms. 
+
+Customers should be able to pay bills through credit card, check, or cash. The system should send notifications for booking, cancellation, and check-in reminders. Five main actors.
+
+Guest, who searches available rooms and makes a booking. Receptionist, who adds and modifies rooms, creates bookings, checks-in, and checks out customers. Manager, responsible for adding new workers. 
+
+Housekeeper, who adds or modifies housekeeping records. And the system, responsible for sending notifications for room booking and cancellation. Key classes. 
+
+Hotel is the main class, which has a name, address, and list of rooms. Room has a room number, room style, room status, booking price, and is assigned a room key. Room booking manages bookings for a room, tracking check-in and check-out dates, and booking status. 
+
+Room house. Keeping tracks. All housekeeping records. 
+
+Room charge encapsulates details about room services that guests have requested. Invoice contains different invoice items for every charge against the room. Notification handles sending alerts to guests. 
+
+Account, person, guest, receptionist, and server represent the different people interacting with the system. Key activity diagrams. Room booking. 
+
+Guest or receptionist searches for available rooms, selects a room, confirms booking, and the system sends a notification. Check-in. Guest arrives. 
+
+Receptionist verifies booking, assigns room key, updates room status to occupied. Cancel booking. Guest or receptionist cancels. 
+
+System updates status and sends cancellation notification. That's the OOD of a hotel management system. Follow for more system design breakdowns.
+
+(Transcribed by TurboScribe. Go Unlimited to remove this message.)
