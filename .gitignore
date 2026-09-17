@@ -66,3 +66,9 @@ Desktop.ini
 # Unmodified framework boilerplate documentation
 apps/web/README.md
 apps/api/README.md
+
+# Local planning and reference material
+*.md
+prototype/
+diagrams/
+transcript overview of Hotel management system design (OOD) system design.txt
